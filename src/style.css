@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .footer {
+    background-color: #333;
+    color: white;
+}
+
+button#darkModeToggle {
+    margin-left: 15px;
+}
+
+.dark-mode .card{
+    background-color: #333 !important;
+    color: white;
+
+}
+.dark-mode footer{
+    background-color: #333 !important;
+    color: white;
+
+}
