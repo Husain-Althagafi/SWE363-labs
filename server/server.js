@@ -1,6 +1,6 @@
 const express = require('express')
 const CourseModel = require('./models/courses')
-
+const cors = require('cors')
 const app = express()
 const port = 3000
 
@@ -36,6 +36,6 @@ app.get('/api/courses/:id', (req, res) =>{
 
 
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log('Server running at http://localhost:3000/')
 })
